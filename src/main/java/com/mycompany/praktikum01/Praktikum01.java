@@ -7,7 +7,7 @@ public class Praktikum01 {
         mahasiswa.setId(1);
         mahasiswa.setNPM("2110010316");
         mahasiswa.setNama("Muhammad Ariva");
-        mahasiswa.setIPK(4);
+        mahasiswa.setIPK(3.9);
         
         mahasiswa.viewData();
     }
