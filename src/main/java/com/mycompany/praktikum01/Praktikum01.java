@@ -18,7 +18,7 @@ public class Praktikum01 {
         
         MahasiswaTransfer mt = new MahasiswaTransfer();
         mt.setId(3);
-        mtsetNPM("17990003")
+        mtsetNPM("17990003");
         mt.setNama("Utaman Ibn Affan");
         mt.setIPK(3.9);
         mt.viewData();
@@ -38,5 +38,9 @@ public class Praktikum01 {
         santri.viewData();
         dl.viewData();
 
+    }
+
+    private static void mtsetNPM(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

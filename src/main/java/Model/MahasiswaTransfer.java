@@ -9,4 +9,9 @@ public class MahasiswaTransfer extends Mahasiswa{
     public void setIPKSebelumnya (double IPKSebelumnya) {
         this.IPKSebelumnya = IPKSebelumnya;
     }
+    
+    @Override
+    public void inputKRS() {
+        System.out.println("Mahasiswa Transfer input KRS");
+    }
 }
