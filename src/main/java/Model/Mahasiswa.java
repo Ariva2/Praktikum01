@@ -4,6 +4,16 @@ public class Mahasiswa {
     private String NPM;
     private String nama;
     private double IPK;
+
+    public Mahasiswa() {
+    }
+
+    public Mahasiswa(int id, String NPM, String nama, double IPK) {
+        this.id = id;
+        this.NPM = NPM;
+        this.nama = nama;
+        this.IPK = IPK;
+    }
     
     public void mendaftarUlang() {
         System.out.println("Mahasiswa mendaftar ulang");
