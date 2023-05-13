@@ -22,6 +22,10 @@ public class Mahasiswa {
     public void inputKRS() {
         System.out.println("Mahasiswa input KRS");
     }
+    
+    public void inputKRS(int jumlahSKS) {
+        System.out.println("Mahasiswa input KRS sebanyak: "+jumlahSKS+ "SKS");
+    }
 
     public int getId() {
         return id;
@@ -64,4 +68,6 @@ public class Mahasiswa {
             System.out.println("=============== View Data ===============");
             System.out.println("");
     }
+    
+
 }
