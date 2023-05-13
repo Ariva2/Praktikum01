@@ -26,6 +26,28 @@ public class Mahasiswa {
     public void inputKRS(int jumlahSKS) {
         System.out.println("Mahasiswa input KRS sebanyak: "+jumlahSKS+ "SKS");
     }
+    
+    public void inputKRS(float IPSemester) {
+        System.out.println("Mahasiswa nilai rata-rata semester sebanyak: "+IPSemester+ "IPSemester");
+    }
+    
+    public void inputKRS(String namaMahasiswa) {
+        System.out.println("Mahasiswa ini Bernama: "+namaMahasiswa);
+    }
+    
+    public void inputKRS(char namaDosenPembimbing) {
+        System.out.println("Mahasiswa memiliki dosen pembimbing bernama: "+namaDosenPembimbing);
+    }
+    
+    public void inputKRS(int jumlahSKS, float IPSemester) {
+        System.out.println("Mahasiswa Memiliki SKS: "+jumlahSKS+ "SKS");
+        System.out.println("Mahasiswa nilai rata-rata semester sebanyak: "+IPSemester+ "IPSemester");
+    }
+    
+    public void inputKRS(int jumlahMK, double IPK) {
+        System.out.println("Mahasiswa memilih Mata Kuliah Sebanyak: "+jumlahMK+ "MK");
+        System.out.println("Mahasiswa memiliki IPK Sebanyak: "+IPK+ "IPK");
+    }
 
     public int getId() {
         return id;
